@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTES</title>
+</head>
+<body>
+    <h1>Take a Note</h1>
+    <ol>
+        {% for note in note %}
+            <li>{{ note }}</li>
+        {% endfor %}
+    </ol>
+    <form action="{{ url_for('index') }}" method="post">
+        <input type="text" name="note" placeholder="Type Something">
+        <button>Add Note</button>
+    </form>
+    
+</body>
+</html>

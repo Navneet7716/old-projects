@@ -1,0 +1,31 @@
+h1 {
+	text-shadow: -2px 2px 3px grey;
+	width: 600px;
+	margin-top: 10px;
+	margin-left: 32%;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid black;
+}
+h2 {
+	
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: black;
+	color: rgb(57, 231, 65);
+	margin: 20px 150px;
+	padding: 2px;
+}
+.form {
+	margin-top: 80px;
+	align-content: auto;
+	width: 500px;
+	margin-left: 34%;
+	padding: 20px;
+	padding-bottom: 80px;
+	text-align: center;
+	border: 2px solid black;
+}
+.formed {
+	border: 2px solid black;
+}

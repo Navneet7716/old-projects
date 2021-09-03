@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+
+{% block title  %}
+FLIGTHS
+{% endblock %}
+
+{% block body %}
+
+<h1>FLIGHTS LIST</h1>
+
+{% for flight in flights %}
+<ul class="list-inline">
+	<li class="list-group-item">
+		<a href="{{ url_for('flight', flight_id=flight.id) }}">{{ flight.origin }} to {{ flight.destination }}</a>
+	</li>
+{% endfor %}
+</ul>
+{% endblock %}
+

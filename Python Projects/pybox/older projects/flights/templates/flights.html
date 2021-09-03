@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+
+{% block title  %}
+FLIGTHS LIST
+{% endblock %}
+
+{% block body %}
+
+<h1>{{ flight.origin }} to {{ flight.destination }}</h1>
+
+{% for p in passengers %}
+<ul class="list-inline">
+	<li class="list-group-item">
+	{{ p.name }}
+</li>
+</ul>
+{% else %}
+no passengers
+{% endfor %}
+
+{% endblock %}
+

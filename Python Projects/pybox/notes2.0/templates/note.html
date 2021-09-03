@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block title %}
+NOTES
+{% endblock %}
+{% block body %}
+    <h1>These Are Your Notes</h1>
+    {% for note in notels %}
+    <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ note.title }}</h5>
+        <p class="card-text">{{ note.content}}</p>
+        <a href="#" class="btn btn-primary">DELETE</a>
+      </div>
+    </div>
+  </div>
+  </div>
+        {% endfor %}
+ 
+    <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+    <form action="{{ url_for('note', user_id = u_id) }}" method="post">
+        <input class="form-group" type="text" name="title" placeholder="Title">
+        <textarea class="form-control" name="content" placeholder="Type Your Note" cols="30" rows="10"></textarea> 
+        <button class="btn btn-primary">Add Note</button>
+    </form>
+    <form action="{{ url_for('clear', user_id = u_id) }}" method="post">
+        <button class="btn btn-primary">Clear All</button>
+    </form>
+<a href="{{ url_for('login') }}">Log Out</a>
+</div>
+</div>
+</div>
+</div>
+{% endblock %} 

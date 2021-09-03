@@ -1,0 +1,8 @@
+notes for flask
+
+
+set FLASK_APP=nameoffile.py
+
+then
+
+flask run

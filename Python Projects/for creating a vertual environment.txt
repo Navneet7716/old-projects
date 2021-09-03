@@ -1,0 +1,36 @@
+Microsoft Windows [Version 10.0.18363.778]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\CEO\Desktop\pybox>py -3 -m venv venv
+
+C:\Users\CEO\Desktop\pybox>venv\Scripts\activate
+
+(venv) C:\Users\CEO\Desktop\pybox>pip install flask
+Collecting flask
+  Using cached https://files.pythonhosted.org/packages/f2/28/2a03252dfb9ebf377f40fba6a7841b47083260bf8bd8e737b0c6952df83f/Flask-1.1.2-py2.py3-none-any.whl
+Collecting itsdangerous>=0.24 (from flask)
+  Using cached https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10.1 (from flask)
+  Using cached https://files.pythonhosted.org/packages/30/9e/f663a2aa66a09d838042ae1a2c5659828bb9b41ea3a6efa20a20fd92b121/Jinja2-2.11.2-py2.py3-none-any.whl
+Collecting Werkzeug>=0.15 (from flask)
+  Using cached https://files.pythonhosted.org/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl
+Collecting click>=5.1 (from flask)
+  Using cached https://files.pythonhosted.org/packages/dd/c0/4d8f43a9b16e289f36478422031b8a63b54b6ac3b1ba605d602f10dd54d6/click-7.1.1-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10.1->flask)
+  Using cached https://files.pythonhosted.org/packages/4f/8b/da8a2ae5780d38271ac6e691756fc938cf4df8f225eb8aaced0204304932/MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl
+Installing collected packages: itsdangerous, MarkupSafe, Jinja2, Werkzeug, click, flask
+Successfully installed Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.1 flask-1.1.2 itsdangerous-1.1.0
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(venv) C:\Users\CEO\Desktop\pybox>flask --version
+Python 3.8.2
+Flask 1.1.2
+Werkzeug 1.0.1
+
+(venv) C:\Users\CEO\Desktop\pybox>mkdir demoapp
+
+(venv) C:\Users\CEO\Desktop\pybox>cd demoapp
+
+(venv) C:\Users\CEO\Desktop\pybox\demoapp>
+set FLASK_ENV=development

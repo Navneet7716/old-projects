@@ -1,0 +1,1121 @@
+Microsoft Windows [Version 10.0.18363.836]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\CEO>heroku --version
+heroku/7.41.1 win32-x64 node-v12.16.2
+
+C:\Users\CEO>cd Desktop
+
+C:\Users\CEO\Desktop>cd Myfirstapp
+
+C:\Users\CEO\Desktop\Myfirstapp>pipenv shell
+Launching subshell in virtual environment…
+Microsoft Windows [Version 10.0.18363.836]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku --version
+heroku/7.41.1 win32-x64 node-v12.16.2
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git init
+Reinitialized existing Git repository in C:/Users/CEO/Desktop/Myfirstapp/.git/
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/83fa66a7-298a-4f75-a4a0-2f307f1691af
+Logging in... done
+Logged in as navneetsingh969@gmail.com
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku create notesbynav
+Creating ⬢ notesbynav... done
+https://notesbynav.herokuapp.com/ | https://git.heroku.com/notesbynav.git
+
+Creating heroku-postgresql:hobby-dev on ⬢ notesbynav... free
+Database has been created and is available
+ ! This database is empty. If upgrading, you can transfer
+ ! data from another database with pg:copy
+Created postgresql-regular-57005 as DATABASE_URL
+Use heroku addons:docs heroku-postgresql to view documentation
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku config --app notesbynav
+=== notesbynav Config Vars
+DATABASE_URL: postgres://jkepbppkbomfmb:f11db2ae8f4d51983fbff283e0301dc52ec32b094c119ec8df935ba4e7a92c65@ec2-3-222-150-253.compute-1.amazonaws.com:5432/d713ruits1dbue
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>pip freeze > requirements
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>python --version
+Python 3.8.2
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>pip freeze > requirements.txt
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git add . && git commit -m 'Initial Deploy'
+warning: LF will be replaced by CRLF in Pipfile.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Pipfile.lock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/HELP-US-OUT.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/css/font-awesome.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/css/font-awesome.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/animated.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/bordered-pulled.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/core.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/fixed-width.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/font-awesome.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/icons.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/larger.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/list.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/mixins.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/path.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/rotated-flipped.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/screen-reader.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/stacked.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/less/variables.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_animated.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_core.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_fixed-width.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_icons.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_larger.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_list.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_mixins.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_path.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_screen-reader.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_stacked.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/_variables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/font-awesome-4.7.0/scss/font-awesome.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/HELP-US-OUT.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/css/font-awesome.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/css/font-awesome.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/fonts/fontawesome-webfont.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/animated.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/bordered-pulled.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/core.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/fixed-width.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/font-awesome.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/icons.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/larger.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/list.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/mixins.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/path.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/rotated-flipped.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/screen-reader.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/stacked.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/less/variables.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_animated.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_bordered-pulled.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_core.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_fixed-width.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_icons.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_larger.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_list.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_mixins.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_path.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_rotated-flipped.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_screen-reader.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_stacked.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/_variables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts1/font-awesome-4.7.0/scss/font-awesome.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/animate/animate.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/animsition/css/animsition.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/animsition/css/animsition.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/animsition/js/animsition.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/animsition/js/animsition.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/js/popper.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/js/popper.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/bootstrap/js/tooltip.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/daterangepicker/daterangepicker.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/daterangepicker/daterangepicker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/daterangepicker/moment.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/daterangepicker/moment.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/jquery/jquery-3.2.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/perfect-scrollbar/perfect-scrollbar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/perfect-scrollbar/perfect-scrollbar.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/select2/select2.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor/select2/select2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/animate/animate.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/animsition/css/animsition.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/animsition/css/animsition.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/animsition/js/animsition.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/animsition/js/animsition.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/js/popper.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/js/popper.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/bootstrap/js/tooltip.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/daterangepicker/daterangepicker.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/daterangepicker/daterangepicker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/daterangepicker/moment.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/daterangepicker/moment.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/jquery/jquery-3.2.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/perfect-scrollbar/perfect-scrollbar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/perfect-scrollbar/perfect-scrollbar.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/select2/select2.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/vendor1/select2/select2.min.js.
+The file will have its original line endings in your working directory
+error: pathspec 'Deploy'' did not match any file(s) known to git
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git add .
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git commit -m "Initial Deploy"
+[master (root-commit) e132719] Initial Deploy
+ 245 files changed, 106348 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Pipfile
+ create mode 100644 Pipfile.lock
+ create mode 100644 Procfile
+ create mode 100644 application.py
+ create mode 100644 requirements.txt
+ create mode 100644 runtime.txt
+ create mode 100644 static/css/main.css
+ create mode 100644 static/css/util.css
+ create mode 100644 static/css1/main.css
+ create mode 100644 static/css1/util.css
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-Bold.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-BoldItalic.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-Italic.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-Light.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-LightItalic.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-Regular.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-SemiBold.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-Thin.ttf
+ create mode 100644 static/fonts/JosefinSans/JosefinSans-ThinItalic.ttf
+ create mode 100644 static/fonts/JosefinSans/OFL.txt
+ create mode 100644 static/fonts/font-awesome-4.7.0/HELP-US-OUT.txt
+ create mode 100644 static/fonts/font-awesome-4.7.0/css/font-awesome.css
+ create mode 100644 static/fonts/font-awesome-4.7.0/css/font-awesome.min.css
+ create mode 100644 static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf
+ create mode 100644 static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot
+ create mode 100644 static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg
+ create mode 100644 static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf
+ create mode 100644 static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff
+ create mode 100644 static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/animated.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/bordered-pulled.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/core.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/fixed-width.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/font-awesome.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/icons.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/larger.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/list.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/mixins.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/path.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/rotated-flipped.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/screen-reader.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/stacked.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/less/variables.less
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_animated.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_core.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_fixed-width.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_icons.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_larger.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_list.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_mixins.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_path.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_screen-reader.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_stacked.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/_variables.scss
+ create mode 100644 static/fonts/font-awesome-4.7.0/scss/font-awesome.scss
+ create mode 100644 static/fonts/iconic/css/material-design-iconic-font.css
+ create mode 100644 static/fonts/iconic/css/material-design-iconic-font.min.css
+ create mode 100644 static/fonts/iconic/fonts/Material-Design-Iconic-Font.eot
+ create mode 100644 static/fonts/iconic/fonts/Material-Design-Iconic-Font.svg
+ create mode 100644 static/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf
+ create mode 100644 static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff
+ create mode 100644 static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2
+ create mode 100644 static/fonts/source-sans-pro/OFL.txt
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-Black.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-BlackItalic.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-Bold.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-ExtraLight.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-Italic.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-Light.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-Regular.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf
+ create mode 100644 static/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-Bold.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-BoldItalic.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-Italic.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-Light.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-LightItalic.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-Regular.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-SemiBold.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-SemiBoldItalic.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-Thin.ttf
+ create mode 100644 static/fonts1/JosefinSans/JosefinSans-ThinItalic.ttf
+ create mode 100644 static/fonts1/JosefinSans/OFL.txt
+ create mode 100644 static/fonts1/font-awesome-4.7.0/HELP-US-OUT.txt
+ create mode 100644 static/fonts1/font-awesome-4.7.0/css/font-awesome.css
+ create mode 100644 static/fonts1/font-awesome-4.7.0/css/font-awesome.min.css
+ create mode 100644 static/fonts1/font-awesome-4.7.0/fonts/FontAwesome.otf
+ create mode 100644 static/fonts1/font-awesome-4.7.0/fonts/fontawesome-webfont.eot
+ create mode 100644 static/fonts1/font-awesome-4.7.0/fonts/fontawesome-webfont.svg
+ create mode 100644 static/fonts1/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf
+ create mode 100644 static/fonts1/font-awesome-4.7.0/fonts/fontawesome-webfont.woff
+ create mode 100644 static/fonts1/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/animated.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/bordered-pulled.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/core.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/fixed-width.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/font-awesome.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/icons.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/larger.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/list.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/mixins.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/path.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/rotated-flipped.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/screen-reader.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/stacked.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/less/variables.less
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_animated.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_bordered-pulled.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_core.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_fixed-width.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_icons.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_larger.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_list.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_mixins.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_path.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_rotated-flipped.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_screen-reader.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_stacked.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/_variables.scss
+ create mode 100644 static/fonts1/font-awesome-4.7.0/scss/font-awesome.scss
+ create mode 100644 static/fonts1/iconic/css/material-design-iconic-font.css
+ create mode 100644 static/fonts1/iconic/css/material-design-iconic-font.min.css
+ create mode 100644 static/fonts1/iconic/fonts/Material-Design-Iconic-Font.eot
+ create mode 100644 static/fonts1/iconic/fonts/Material-Design-Iconic-Font.svg
+ create mode 100644 static/fonts1/iconic/fonts/Material-Design-Iconic-Font.ttf
+ create mode 100644 static/fonts1/iconic/fonts/Material-Design-Iconic-Font.woff
+ create mode 100644 static/fonts1/iconic/fonts/Material-Design-Iconic-Font.woff2
+ create mode 100644 static/fonts1/source-sans-pro/OFL.txt
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-Black.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-BlackItalic.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-Bold.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-BoldItalic.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-ExtraLight.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-Italic.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-Light.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-LightItalic.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-Regular.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-SemiBold.ttf
+ create mode 100644 static/fonts1/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf
+ create mode 100644 static/fonts1/ubuntu/UFL.txt
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-Bold.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-BoldItalic.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-Italic.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-Light.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-LightItalic.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-Medium.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-MediumItalic.ttf
+ create mode 100644 static/fonts1/ubuntu/Ubuntu-Regular.ttf
+ create mode 100644 static/images/bg-01.jpg
+ create mode 100644 static/images/icons/favicon.ico
+ create mode 100644 static/images/icons/icon-google.png
+ create mode 100644 static/images/icons/map-marker.png
+ create mode 100644 static/images1/icons/favicon.ico
+ create mode 100644 static/images1/icons/map-marker.png
+ create mode 100644 static/js/main.js
+ create mode 100644 static/js/map-custom.js
+ create mode 100644 static/js1/main.js
+ create mode 100644 static/vendor/animate/animate.css
+ create mode 100644 static/vendor/animsition/css/animsition.css
+ create mode 100644 static/vendor/animsition/css/animsition.min.css
+ create mode 100644 static/vendor/animsition/js/animsition.js
+ create mode 100644 static/vendor/animsition/js/animsition.min.js
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-grid.css
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-grid.css.map
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-grid.min.css
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-grid.min.css.map
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-reboot.css
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-reboot.css.map
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-reboot.min.css
+ create mode 100644 static/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+ create mode 100644 static/vendor/bootstrap/css/bootstrap.css
+ create mode 100644 static/vendor/bootstrap/css/bootstrap.css.map
+ create mode 100644 static/vendor/bootstrap/css/bootstrap.min.css
+ create mode 100644 static/vendor/bootstrap/css/bootstrap.min.css.map
+ create mode 100644 static/vendor/bootstrap/js/bootstrap.js
+ create mode 100644 static/vendor/bootstrap/js/bootstrap.min.js
+ create mode 100644 static/vendor/bootstrap/js/popper.js
+ create mode 100644 static/vendor/bootstrap/js/popper.min.js
+ create mode 100644 static/vendor/bootstrap/js/tooltip.js
+ create mode 100644 static/vendor/countdowntime/countdowntime.js
+ create mode 100644 static/vendor/css-hamburgers/hamburgers.css
+ create mode 100644 static/vendor/css-hamburgers/hamburgers.min.css
+ create mode 100644 static/vendor/daterangepicker/daterangepicker.css
+ create mode 100644 static/vendor/daterangepicker/daterangepicker.js
+ create mode 100644 static/vendor/daterangepicker/moment.js
+ create mode 100644 static/vendor/daterangepicker/moment.min.js
+ create mode 100644 static/vendor/jquery/jquery-3.2.1.min.js
+ create mode 100644 static/vendor/perfect-scrollbar/perfect-scrollbar.css
+ create mode 100644 static/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ create mode 100644 static/vendor/select2/select2.css
+ create mode 100644 static/vendor/select2/select2.js
+ create mode 100644 static/vendor/select2/select2.min.css
+ create mode 100644 static/vendor/select2/select2.min.js
+ create mode 100644 static/vendor1/animate/animate.css
+ create mode 100644 static/vendor1/animsition/css/animsition.css
+ create mode 100644 static/vendor1/animsition/css/animsition.min.css
+ create mode 100644 static/vendor1/animsition/js/animsition.js
+ create mode 100644 static/vendor1/animsition/js/animsition.min.js
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-grid.css
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-grid.css.map
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-grid.min.css
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-grid.min.css.map
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-reboot.css
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-reboot.css.map
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-reboot.min.css
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap-reboot.min.css.map
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap.css
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap.css.map
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap.min.css
+ create mode 100644 static/vendor1/bootstrap/css/bootstrap.min.css.map
+ create mode 100644 static/vendor1/bootstrap/js/bootstrap.js
+ create mode 100644 static/vendor1/bootstrap/js/bootstrap.min.js
+ create mode 100644 static/vendor1/bootstrap/js/popper.js
+ create mode 100644 static/vendor1/bootstrap/js/popper.min.js
+ create mode 100644 static/vendor1/bootstrap/js/tooltip.js
+ create mode 100644 static/vendor1/countdowntime/countdowntime.js
+ create mode 100644 static/vendor1/css-hamburgers/hamburgers.css
+ create mode 100644 static/vendor1/css-hamburgers/hamburgers.min.css
+ create mode 100644 static/vendor1/daterangepicker/daterangepicker.css
+ create mode 100644 static/vendor1/daterangepicker/daterangepicker.js
+ create mode 100644 static/vendor1/daterangepicker/moment.js
+ create mode 100644 static/vendor1/daterangepicker/moment.min.js
+ create mode 100644 static/vendor1/jquery/jquery-3.2.1.min.js
+ create mode 100644 static/vendor1/perfect-scrollbar/perfect-scrollbar.css
+ create mode 100644 static/vendor1/perfect-scrollbar/perfect-scrollbar.min.js
+ create mode 100644 static/vendor1/select2/select2.css
+ create mode 100644 static/vendor1/select2/select2.js
+ create mode 100644 static/vendor1/select2/select2.min.css
+ create mode 100644 static/vendor1/select2/select2.min.js
+ create mode 100644 templates/index.html
+ create mode 100644 templates/layout.html
+ create mode 100644 templates/login2.html
+ create mode 100644 templates/note.html
+ create mode 100644 templates/raw.html
+ create mode 100644 templates/raw2.html
+ create mode 100644 templates/signin.html
+ create mode 100644 templates/welcome.html
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku git:remote -a notesbynav
+set git remote heroku to https://git.heroku.com/notesbynav.git
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git push heroku master
+Enumerating objects: 177, done.
+Counting objects: 100% (177/177), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (169/169), done.
+Writing objects: 100% (177/177), 4.17 MiB | 457.00 KiB/s, done.
+Total 177 (delta 15), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.7.7
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing python-3.7.2
+remote: -----> Installing pip
+remote: -----> Installing dependencies with Pipenv 2018.5.18…
+remote:        Installing dependencies from Pipfile.lock (0044f8)…
+remote: -----> Installing SQLite3
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 74.3M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://notesbynav.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/notesbynav.git
+ * [new branch]      master -> master
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku open
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku run python
+Running python on ⬢ notesbynav... up, run.9016 (Free)
+Python 3.7.2 (default, Jan 29 2019, 19:41:29)
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from application import db
+>>> db.create_all()
+>>> exit()
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku pg:psql --app notesbynav
+--> Connecting to postgresql-regular-57005
+psql (12.2)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+notesbynav::DATABASE=> select * from notes;
+ title | content | id | notes_id
+-------+---------+----+----------
+(0 rows)
+
+
+notesbynav::DATABASE=> exit;
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku open
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku logs
+2020-05-22T12:10:50.949431+00:00 app[api]: Release v1 created by user navneetsingh969@gmail.com
+2020-05-22T12:10:50.949431+00:00 app[api]: Initial release by user navneetsingh969@gmail.com
+2020-05-22T12:10:51.071940+00:00 app[api]: Release v2 created by user navneetsingh969@gmail.com
+2020-05-22T12:10:51.071940+00:00 app[api]: Enable Logplex by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.379141+00:00 app[api]: Attach DATABASE (@ref:postgresql-regular-57005) by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.379141+00:00 app[api]: Running release v3 commands by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.390023+00:00 app[api]: @ref:postgresql-regular-57005 completed provisioning, setting DATABASE_URL. by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.390023+00:00 app[api]: Release v4 created by user navneetsingh969@gmail.com
+2020-05-22T12:24:26.000000+00:00 app[api]: Build started by user navneetsingh969@gmail.com
+2020-05-22T12:25:16.481999+00:00 app[api]: Release v5 created by user navneetsingh969@gmail.com
+2020-05-22T12:25:16.481999+00:00 app[api]: Deploy e132719e by user navneetsingh969@gmail.com
+2020-05-22T12:25:16.494030+00:00 app[api]: Scaled to web@1:Free by user navneetsingh969@gmail.com
+2020-05-22T12:25:22.686935+00:00 heroku[web.1]: Starting process with command `gunicorn app:application`
+2020-05-22T12:25:25.582770+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-05-22T12:25:25.583646+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Listening at: http://0.0.0.0:20966 (4)
+2020-05-22T12:25:25.583878+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Using worker: sync
+2020-05-22T12:25:25.590870+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [10] [INFO] Booting worker with pid: 10
+2020-05-22T12:25:25.596693+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [10] [ERROR] Exception in worker process
+2020-05-22T12:25:25.596694+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:25:25.596709+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:25:25.596710+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:25:25.596711+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:25:25.596711+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:25:25.596711+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:25:25.596712+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:25:25.596712+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:25:25.596713+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:25:25.596713+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:25:25.596713+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:25:25.596714+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:25:25.596714+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:25:25.596715+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:25:25.596715+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:25:25.596715+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:25:25.596716+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:25:25.596716+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:25:25.596717+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:25:25.596717+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:25:25.596717+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:25:25.596853+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [10] [INFO] Worker exiting (pid: 10)
+2020-05-22T12:25:25.641588+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Shutting down: Master
+2020-05-22T12:25:25.641929+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Reason: Worker failed to boot.
+2020-05-22T12:25:25.741034+00:00 heroku[web.1]: Process exited with status 3
+2020-05-22T12:25:25.814921+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:25:25.817458+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-22T12:25:27.000000+00:00 app[api]: Build succeeded
+2020-05-22T12:25:31.504307+00:00 heroku[web.1]: Starting process with command `gunicorn app:application`
+2020-05-22T12:25:34.486088+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-05-22T12:25:34.486653+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Listening at: http://0.0.0.0:28832 (4)
+2020-05-22T12:25:34.486760+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Using worker: sync
+2020-05-22T12:25:34.491088+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [10] [INFO] Booting worker with pid: 10
+2020-05-22T12:25:34.496876+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [10] [ERROR] Exception in worker process
+2020-05-22T12:25:34.496877+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:25:34.496878+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:25:34.496879+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:25:34.496879+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:25:34.496879+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:25:34.496880+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:25:34.496880+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:25:34.496881+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:25:34.496881+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:25:34.496882+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:25:34.496882+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:25:34.496882+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:25:34.496883+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:25:34.496883+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:25:34.496884+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:25:34.496884+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:25:34.496884+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:25:34.496885+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:25:34.496885+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:25:34.496885+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:25:34.496886+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:25:34.497007+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [10] [INFO] Worker exiting (pid: 10)
+2020-05-22T12:25:34.533697+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Shutting down: Master
+2020-05-22T12:25:34.533836+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Reason: Worker failed to boot.
+2020-05-22T12:25:34.617894+00:00 heroku[web.1]: Process exited with status 3
+2020-05-22T12:25:34.661346+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:25:51.606794+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=acdfa479-a38c-4954-a03c-1cb7aa6de6a0 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:25:52.386618+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=80a9160f-3b63-4b74-a526-0e19d7454c10 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:26:26.366398+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=f0ad38e9-4965-4865-832e-fb62254c8c76 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:26:26.941801+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=e66f7da6-b1cd-4531-98d2-999a54fec8a1 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:26:37.513337+00:00 app[api]: Starting process with command `python` by user navneetsingh969@gmail.com
+2020-05-22T12:26:42.360946+00:00 heroku[run.9016]: Awaiting client
+2020-05-22T12:26:42.369679+00:00 heroku[run.9016]: State changed from starting to up2020-05-22T12:26:42.404465+00:00 heroku[run.9016]: Starting process with command `python`
+2020-05-22T12:27:32.692543+00:00 heroku[run.9016]: Process exited with status 0
+2020-05-22T12:27:32.733750+00:00 heroku[run.9016]: State changed from up to complete2020-05-22T12:29:51.083908+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=4a4e0ecd-401b-4576-91ba-16153293c70b fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:29:51.657440+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=79a48979-6706-445c-8d69-41a2812c32aa fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku logs --tail
+2020-05-22T12:10:50.949431+00:00 app[api]: Release v1 created by user navneetsingh969@gmail.com
+2020-05-22T12:10:50.949431+00:00 app[api]: Initial release by user navneetsingh969@gmail.com
+2020-05-22T12:10:51.071940+00:00 app[api]: Release v2 created by user navneetsingh969@gmail.com
+2020-05-22T12:10:51.071940+00:00 app[api]: Enable Logplex by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.379141+00:00 app[api]: Attach DATABASE (@ref:postgresql-regular-57005) by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.379141+00:00 app[api]: Running release v3 commands by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.390023+00:00 app[api]: @ref:postgresql-regular-57005 completed provisioning, setting DATABASE_URL. by user navneetsingh969@gmail.com
+2020-05-22T12:12:41.390023+00:00 app[api]: Release v4 created by user navneetsingh969@gmail.com
+2020-05-22T12:24:26.000000+00:00 app[api]: Build started by user navneetsingh969@gmail.com
+2020-05-22T12:25:16.481999+00:00 app[api]: Release v5 created by user navneetsingh969@gmail.com
+2020-05-22T12:25:16.481999+00:00 app[api]: Deploy e132719e by user navneetsingh969@gmail.com
+2020-05-22T12:25:16.494030+00:00 app[api]: Scaled to web@1:Free by user navneetsingh969@gmail.com
+2020-05-22T12:25:22.686935+00:00 heroku[web.1]: Starting process with command `gunicorn app:application`
+2020-05-22T12:25:25.582770+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-05-22T12:25:25.583646+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Listening at: http://0.0.0.0:20966 (4)
+2020-05-22T12:25:25.583878+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Using worker: sync
+2020-05-22T12:25:25.590870+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [10] [INFO] Booting worker with pid: 10
+2020-05-22T12:25:25.596693+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [10] [ERROR] Exception in worker process
+2020-05-22T12:25:25.596694+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:25:25.596709+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:25:25.596710+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:25:25.596711+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:25:25.596711+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:25:25.596711+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:25:25.596712+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:25:25.596712+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:25:25.596713+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:25:25.596713+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:25:25.596713+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:25:25.596714+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:25:25.596714+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:25:25.596715+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:25:25.596715+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:25:25.596715+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:25:25.596716+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:25:25.596716+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:25:25.596717+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:25:25.596717+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:25:25.596717+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:25:25.596853+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [10] [INFO] Worker exiting (pid: 10)
+2020-05-22T12:25:25.641588+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Shutting down: Master
+2020-05-22T12:25:25.641929+00:00 app[web.1]: [2020-05-22 12:25:25 +0000] [4] [INFO] Reason: Worker failed to boot.
+2020-05-22T12:25:25.741034+00:00 heroku[web.1]: Process exited with status 3
+2020-05-22T12:25:25.814921+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:25:25.817458+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-22T12:25:27.000000+00:00 app[api]: Build succeeded
+2020-05-22T12:25:31.504307+00:00 heroku[web.1]: Starting process with command `gunicorn app:application`
+2020-05-22T12:25:34.486088+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-05-22T12:25:34.486653+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Listening at: http://0.0.0.0:28832 (4)
+2020-05-22T12:25:34.486760+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Using worker: sync
+2020-05-22T12:25:34.491088+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [10] [INFO] Booting worker with pid: 10
+2020-05-22T12:25:34.496876+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [10] [ERROR] Exception in worker process
+2020-05-22T12:25:34.496877+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:25:34.496878+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:25:34.496879+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:25:34.496879+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:25:34.496879+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:25:34.496880+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:25:34.496880+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:25:34.496881+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:25:34.496881+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:25:34.496882+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:25:34.496882+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:25:34.496882+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:25:34.496883+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:25:34.496883+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:25:34.496884+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:25:34.496884+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:25:34.496884+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:25:34.496885+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:25:34.496885+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:25:34.496885+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:25:34.496886+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:25:34.497007+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [10] [INFO] Worker exiting (pid: 10)
+2020-05-22T12:25:34.533697+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Shutting down: Master
+2020-05-22T12:25:34.533836+00:00 app[web.1]: [2020-05-22 12:25:34 +0000] [4] [INFO] Reason: Worker failed to boot.
+2020-05-22T12:25:34.617894+00:00 heroku[web.1]: Process exited with status 3
+2020-05-22T12:25:34.661346+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:25:51.606794+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=acdfa479-a38c-4954-a03c-1cb7aa6de6a0 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:25:52.386618+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=80a9160f-3b63-4b74-a526-0e19d7454c10 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:26:26.366398+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=f0ad38e9-4965-4865-832e-fb62254c8c76 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:26:26.941801+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=e66f7da6-b1cd-4531-98d2-999a54fec8a1 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:26:37.513337+00:00 app[api]: Starting process with command `python` by user navneetsingh969@gmail.com
+2020-05-22T12:26:42.360946+00:00 heroku[run.9016]: Awaiting client
+2020-05-22T12:26:42.369679+00:00 heroku[run.9016]: State changed from starting to up
+2020-05-22T12:26:42.404465+00:00 heroku[run.9016]: Starting process with command `python`
+2020-05-22T12:27:32.692543+00:00 heroku[run.9016]: Process exited with status 0
+2020-05-22T12:27:32.733750+00:00 heroku[run.9016]: State changed from up to complete
+2020-05-22T12:29:51.083908+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=4a4e0ecd-401b-4576-91ba-16153293c70b fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:29:51.657440+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=79a48979-6706-445c-8d69-41a2812c32aa fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+^CTerminate batch job (Y/N)? y
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git add .
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git commit -m "changed line 47"
+[master 9fd8770] changed line 47
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku git:remote -a notesbynav
+set git remote heroku to https://git.heroku.com/notesbynav.git
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git push heroku master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 314 bytes | 314.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.7.7
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> No change in requirements detected, installing from cache
+remote:        Skipping installation, as Pipfile.lock hasn't changed since last deploy.
+remote: -----> Installing SQLite3
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 74.3M
+remote: -----> Launching...
+remote:        Released v6
+remote:        https://notesbynav.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/notesbynav.git
+   e132719..9fd8770  master -> master
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku open
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku logs --tail
+2020-05-22T12:41:27.092981+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:41:27.092981+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:41:27.093074+00:00 app[web.1]: [2020-05-22 12:41:27 +0000] [10] [INFO] Worker exiting (pid: 10)
+2020-05-22T12:41:27.117600+00:00 app[web.1]: [2020-05-22 12:41:27 +0000] [4] [INFO] Shutting down: Master
+2020-05-22T12:41:27.117694+00:00 app[web.1]: [2020-05-22 12:41:27 +0000] [4] [INFO] Reason: Worker failed to boot.
+2020-05-22T12:41:27.176447+00:00 heroku[web.1]: Process exited with status 3
+2020-05-22T12:41:27.212039+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:41:27.214753+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-22T12:41:31.000000+00:00 app[api]: Build succeeded
+2020-05-22T12:41:31.460619+00:00 heroku[web.1]: Starting process with command `gunicorn app:application`
+2020-05-22T12:41:33.357555+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-05-22T12:41:33.358097+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [4] [INFO] Listening at: http://0.0.0.0:29037 (4)
+2020-05-22T12:41:33.358191+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [4] [INFO] Using worker: sync
+2020-05-22T12:41:33.363065+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [10] [INFO] Booting worker with pid: 10
+2020-05-22T12:41:33.366680+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [11] [INFO] Booting worker with pid: 11
+2020-05-22T12:41:33.369845+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [10] [ERROR] Exception in worker process
+2020-05-22T12:41:33.369846+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.369847+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:41:33.369847+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:41:33.369847+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:41:33.369847+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:41:33.369848+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:41:33.369848+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:41:33.369848+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:41:33.369848+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:41:33.369849+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:41:33.369849+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:41:33.369849+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:41:33.369849+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:41:33.369849+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:41:33.369850+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:41:33.369850+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:41:33.369850+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:41:33.369850+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:41:33.369851+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:41:33.369851+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:41:33.369851+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:41:33.370021+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [10] [INFO] Worker exiting (pid: 10)
+2020-05-22T12:41:33.371927+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [11] [ERROR] Exception in worker process
+2020-05-22T12:41:33.371928+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.371929+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:41:33.371929+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:41:33.371929+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:41:33.371929+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:41:33.371930+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:41:33.371930+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:41:33.371931+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:41:33.371931+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:41:33.371931+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:41:33.371932+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:41:33.371932+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:41:33.371932+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:41:33.371933+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:41:33.371933+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:41:33.371933+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:41:33.371934+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:41:33.371934+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:41:33.371935+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:41:33.371935+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:41:33.371935+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:41:33.372061+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [11] [INFO] Worker exiting (pid: 11)
+2020-05-22T12:41:33.398778+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.398783+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 202, in run
+2020-05-22T12:41:33.399106+00:00 app[web.1]: self.manage_workers()
+2020-05-22T12:41:33.399147+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 545, in manage_workers
+2020-05-22T12:41:33.399454+00:00 app[web.1]: self.spawn_workers()
+2020-05-22T12:41:33.399456+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 617, in spawn_workers
+2020-05-22T12:41:33.399779+00:00 app[web.1]: time.sleep(0.1 * random.random())
+2020-05-22T12:41:33.399781+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+2020-05-22T12:41:33.399945+00:00 app[web.1]: self.reap_workers()
+2020-05-22T12:41:33.399965+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
+2020-05-22T12:41:33.400243+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2020-05-22T12:41:33.400306+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2020-05-22T12:41:33.400312+00:00 app[web.1]:
+2020-05-22T12:41:33.400312+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2020-05-22T12:41:33.400312+00:00 app[web.1]:
+2020-05-22T12:41:33.400314+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.400316+00:00 app[web.1]: File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2020-05-22T12:41:33.400469+00:00 app[web.1]: sys.exit(run())
+2020-05-22T12:41:33.400471+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 58, in run
+2020-05-22T12:41:33.400613+00:00 app[web.1]: WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2020-05-22T12:41:33.400629+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 228, in run
+2020-05-22T12:41:33.400813+00:00 app[web.1]: super().run()
+2020-05-22T12:41:33.400830+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 72, in run
+2020-05-22T12:41:33.400972+00:00 app[web.1]: Arbiter(self).run()
+2020-05-22T12:41:33.400980+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 229, in run
+2020-05-22T12:41:33.401227+00:00 app[web.1]: self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2020-05-22T12:41:33.401232+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 342, in halt
+2020-05-22T12:41:33.401445+00:00 app[web.1]: self.stop()
+2020-05-22T12:41:33.401446+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 393, in stop
+2020-05-22T12:41:33.401739+00:00 app[web.1]: time.sleep(0.1)
+2020-05-22T12:41:33.401740+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+2020-05-22T12:41:33.401849+00:00 app[web.1]: self.reap_workers()
+2020-05-22T12:41:33.401871+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
+2020-05-22T12:41:33.402101+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2020-05-22T12:41:33.402134+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2020-05-22T12:41:33.457717+00:00 heroku[web.1]: Process exited with status 1
+2020-05-22T12:41:33.493508+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:42:01.411991+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=e9f8d788-a157-4e90-9299-e461f9110ae1 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:42:01.898108+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=fc0e2761-d44c-44b2-8438-b7aa4693dfa9 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+^CTerminate batch job (Y/N)? y
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku git:remote -a notesbynav
+set git remote heroku to https://git.heroku.com/notesbynav.git
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git add .
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git commit -m "changed runtime"
+[master 119b1a9] changed runtime
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku git:remote -a notesbynav
+set git remote heroku to https://git.heroku.com/notesbynav.git
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git push heroku master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 278 bytes | 278.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.8.3
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Found python-3.7.2, removing
+remote: -----> No change in requirements detected, installing from cache
+remote: -----> Installing python-3.8.2
+remote: -----> Installing pip
+remote: -----> Installing dependencies with Pipenv 2018.5.18…
+remote:        Installing dependencies from Pipfile.lock (0044f8)…
+remote: -----> Installing SQLite3
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 73.9M
+remote: -----> Launching...
+remote:        Released v7
+remote:        https://notesbynav.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/notesbynav.git
+   9fd8770..119b1a9  master -> master
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku open
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku logs --tail
+2020-05-22T12:41:33.371928+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.371929+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:41:33.371929+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:41:33.371929+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:41:33.371929+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:41:33.371930+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:41:33.371930+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:41:33.371931+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:41:33.371931+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:41:33.371931+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:41:33.371932+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:41:33.371932+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:41:33.371932+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:41:33.371933+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:41:33.371933+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:41:33.371933+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:41:33.371934+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:41:33.371934+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+2020-05-22T12:41:33.371935+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+2020-05-22T12:41:33.371935+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+2020-05-22T12:41:33.371935+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:41:33.372061+00:00 app[web.1]: [2020-05-22 12:41:33 +0000] [11] [INFO] Worker exiting (pid: 11)
+2020-05-22T12:41:33.398778+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.398783+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 202, in run
+2020-05-22T12:41:33.399106+00:00 app[web.1]: self.manage_workers()
+2020-05-22T12:41:33.399147+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 545, in manage_workers
+2020-05-22T12:41:33.399454+00:00 app[web.1]: self.spawn_workers()
+2020-05-22T12:41:33.399456+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 617, in spawn_workers
+2020-05-22T12:41:33.399779+00:00 app[web.1]: time.sleep(0.1 * random.random())
+2020-05-22T12:41:33.399781+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+2020-05-22T12:41:33.399945+00:00 app[web.1]: self.reap_workers()
+2020-05-22T12:41:33.399965+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
+2020-05-22T12:41:33.400243+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2020-05-22T12:41:33.400306+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2020-05-22T12:41:33.400312+00:00 app[web.1]:
+2020-05-22T12:41:33.400312+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2020-05-22T12:41:33.400312+00:00 app[web.1]:
+2020-05-22T12:41:33.400314+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:41:33.400316+00:00 app[web.1]: File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2020-05-22T12:41:33.400469+00:00 app[web.1]: sys.exit(run())
+2020-05-22T12:41:33.400471+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/wsgiapp.py", line 58, in run
+2020-05-22T12:41:33.400613+00:00 app[web.1]: WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2020-05-22T12:41:33.400629+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 228, in run
+2020-05-22T12:41:33.400813+00:00 app[web.1]: super().run()
+2020-05-22T12:41:33.400830+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/app/base.py", line 72, in run
+2020-05-22T12:41:33.400972+00:00 app[web.1]: Arbiter(self).run()
+2020-05-22T12:41:33.400980+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 229, in run
+2020-05-22T12:41:33.401227+00:00 app[web.1]: self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2020-05-22T12:41:33.401232+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 342, in halt
+2020-05-22T12:41:33.401445+00:00 app[web.1]: self.stop()
+2020-05-22T12:41:33.401446+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 393, in stop
+2020-05-22T12:41:33.401739+00:00 app[web.1]: time.sleep(0.1)
+2020-05-22T12:41:33.401740+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+2020-05-22T12:41:33.401849+00:00 app[web.1]: self.reap_workers()
+2020-05-22T12:41:33.401871+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/gunicorn/arbiter.py", line 525, in reap_workers
+2020-05-22T12:41:33.402101+00:00 app[web.1]: raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2020-05-22T12:41:33.402134+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2020-05-22T12:41:33.457717+00:00 heroku[web.1]: Process exited with status 1
+2020-05-22T12:41:33.493508+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:42:01.411991+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=e9f8d788-a157-4e90-9299-e461f9110ae1 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:42:01.898108+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=fc0e2761-d44c-44b2-8438-b7aa4693dfa9 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:45:55.000000+00:00 app[api]: Build started by user navneetsingh969@gmail.com
+2020-05-22T12:46:51.518133+00:00 app[api]: Deploy 119b1a92 by user navneetsingh969@gmail.com
+2020-05-22T12:46:51.518133+00:00 app[api]: Release v7 created by user navneetsingh969@gmail.com
+2020-05-22T12:46:51.942402+00:00 heroku[web.1]: State changed from crashed to starting
+2020-05-22T12:46:56.627071+00:00 heroku[web.1]: Starting process with command `gunicorn app:application`
+2020-05-22T12:46:59.653799+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-05-22T12:46:59.654451+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [4] [INFO] Listening at: http://0.0.0.0:24154 (4)
+2020-05-22T12:46:59.654575+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [4] [INFO] Using worker: sync
+2020-05-22T12:46:59.658583+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [9] [INFO] Booting worker with pid: 9
+2020-05-22T12:46:59.664200+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [9] [ERROR] Exception in worker process
+2020-05-22T12:46:59.664202+00:00 app[web.1]: Traceback (most recent call last):
+2020-05-22T12:46:59.664223+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2020-05-22T12:46:59.664224+00:00 app[web.1]: worker.init_process()
+2020-05-22T12:46:59.664224+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/workers/base.py", line 119, in init_process
+2020-05-22T12:46:59.664224+00:00 app[web.1]: self.load_wsgi()
+2020-05-22T12:46:59.664225+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+2020-05-22T12:46:59.664225+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2020-05-22T12:46:59.664226+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2020-05-22T12:46:59.664226+00:00 app[web.1]: self.callable = self.load()
+2020-05-22T12:46:59.664226+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+2020-05-22T12:46:59.664227+00:00 app[web.1]: return self.load_wsgiapp()
+2020-05-22T12:46:59.664227+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+2020-05-22T12:46:59.664227+00:00 app[web.1]: return util.import_app(self.app_uri)
+2020-05-22T12:46:59.664228+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/site-packages/gunicorn/util.py", line 358, in import_app
+2020-05-22T12:46:59.664228+00:00 app[web.1]: mod = importlib.import_module(module)
+2020-05-22T12:46:59.664229+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2020-05-22T12:46:59.664229+00:00 app[web.1]: return _bootstrap._gcd_import(name[level:], package, level)
+2020-05-22T12:46:59.664230+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2020-05-22T12:46:59.664230+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2020-05-22T12:46:59.664231+00:00 app[web.1]: File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2020-05-22T12:46:59.664231+00:00 app[web.1]: ModuleNotFoundError: No module named 'app'
+2020-05-22T12:46:59.664358+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [9] [INFO] Worker exiting (pid: 9)
+2020-05-22T12:46:59.699902+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [4] [INFO] Shutting down: Master
+2020-05-22T12:46:59.700069+00:00 app[web.1]: [2020-05-22 12:46:59 +0000] [4] [INFO] Reason: Worker failed to boot.
+2020-05-22T12:46:59.801167+00:00 heroku[web.1]: Process exited with status 3
+2020-05-22T12:46:59.845964+00:00 heroku[web.1]: State changed from starting to crashed
+2020-05-22T12:47:02.000000+00:00 app[api]: Build succeeded
+2020-05-22T12:49:08.781082+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=notesbynav.herokuapp.com request_id=63f3907b-22bb-4983-b8e5-15b62f1f2bee fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+2020-05-22T12:49:09.263662+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=notesbynav.herokuapp.com request_id=72119bd7-b9af-413b-9d36-3118a77e3285 fwd="27.60.92.59" dyno= connect= service= status=503 bytes= protocol=https
+^CTerminate batch job (Y/N)? y
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>pip freeze > requirements.txt
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>pip freeze > requirements.txt
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git add .
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git commit -m "changed file name and else statement"
+[master afa518d] changed file name and else statement
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+ rename application.py => app.py (99%)
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku git:remote -a notesbynav
+set git remote heroku to https://git.heroku.com/notesbynav.git
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>git push heroku master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.49 KiB | 1.49 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.8.3
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> No change in requirements detected, installing from cache
+remote:        Skipping installation, as Pipfile.lock hasn't changed since last deploy.
+remote: -----> Installing SQLite3
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 74M
+remote: -----> Launching...
+remote:        Released v8
+remote:        https://notesbynav.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/notesbynav.git
+   119b1a9..afa518d  master -> master
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>heroku open
+
+(Myfirstapp-9iwd6_f2) C:\Users\CEO\Desktop\Myfirstapp>

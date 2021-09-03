@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes App</title>
+</head>
+<body>
+    <h1>These Are Your Notes</h1>
+    <ol>
+        {% for note in notes %}
+            <li>{{ note }}</li>
+        {% endfor %}
+    </ol>
+    <form action="{{ url_for('home') }}" method="post">
+        <input type="text" name="note" placeholder="Type Your Note">
+        <button>Add Note</button>
+    </form>
+    <form action="{{ url_for('home') }}" method="GET">
+        <button>Clear All</button>
+    </form>
+</body>
+</html>
